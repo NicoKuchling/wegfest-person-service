@@ -1,9 +1,11 @@
-package com.nicokuchling.wegfest.personservice;
+package com.nicokuchling.wegfest.person_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan("com.nicokuchling.wegfest")
 public class PersonServiceApplication {
 
     public static void main(String[] args) {

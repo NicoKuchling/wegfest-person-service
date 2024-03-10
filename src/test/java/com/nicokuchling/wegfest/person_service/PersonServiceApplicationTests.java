@@ -1,4 +1,4 @@
-package com.nicokuchling.wegfest.personservice;
+package com.nicokuchling.wegfest.person_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
