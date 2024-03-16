@@ -23,7 +23,7 @@ public class PersonServiceImpl implements PersonService {
 
 
     @Override
-    public Person getPerson(int personId) {
+    public Person getPersonById(int personId) {
         LOG.debug("/person return the found person for personId={}", personId);
 
         if(personId < 1) {
